@@ -100,7 +100,7 @@ header .header-container-hr {
 
 header .header-container-hr hr {
     height: 2px;
-    width: 80%;
+    width: 100%;
     background-color: #444557;
     border: none;
     border-radius: 2px;
@@ -732,10 +732,6 @@ footer .footer-icon img {
     header .header-container-button {
         top: 300px;
         margin-left: 30px;
-    }
-    
-    header .header-container-hr hr {
-        width: 100%;
     }
 
     header .header-container-image img {
