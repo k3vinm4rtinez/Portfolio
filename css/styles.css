@@ -77,14 +77,16 @@ header .header-container-image {
     height: 550px;
     width: 100%;
     position: relative;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
+    overflow: hidden;
 }
 
 header .header-container-image img {
     height: 500px;
-    object-fit: contain;
+    position: absolute;
+    right: -70px;
 }
 
 header .header-container-hr {
@@ -382,10 +384,6 @@ footer .footer-icon img {
 
     /* Header */
 
-    header .header-container-image img {
-        height: 400px;
-    }
-
     header .header-container-text h1 {
         font-size: 36px;
     }
@@ -437,7 +435,7 @@ footer .footer-icon img {
     /* Header */
     
     header .header-container-text {
-        width: 65%;
+        width: 60%;
     }
     
     header .header-container-text h1 {
@@ -450,7 +448,7 @@ footer .footer-icon img {
     }
     
     header .header-container-image img {
-        height: 370px;
+        height: 400px;
     }
     
     header .header-container-image hr {
@@ -523,7 +521,7 @@ footer .footer-icon img {
     /* Header */
     
     header .header-container-text h1 {
-        font-size: 36px;
+        font-size: 34px;
     }
     
     header .header-container-text h2 {
@@ -568,15 +566,11 @@ footer .footer-icon img {
     /* Header */
     
     header .header-container-text h1 {
-        font-size: 34px;
+        font-size: 32px;
     }
     
     header .header-container-text h2 {
         font-size: 18px;
-    }
-    
-    header .header-container-image img {
-        height: 350px;
     }
     
     /* Main */
@@ -601,6 +595,25 @@ footer .footer-icon img {
 }
 
 @media (max-width: 750px) {
+
+    /* Header */
+    
+    header .header-container-text {
+        width: 70%;
+    }
+
+    header .header-container-text h1 {
+        font-size: 30px;
+    }
+
+    header .header-container-button button {
+        width: 170px;
+    }
+    
+    header .header-container-image img {
+        height: 350px;
+    }
+
     
     /* Main */
 
@@ -645,39 +658,6 @@ footer .footer-icon img {
     
     main .skill-box .skill-box-content p {
         font-size: 20px;
-    }
-    
-}
-
-@media (max-width: 730px) {
-
-    /* Header */
-    
-    header .header-container-text {
-        width: 70%;
-        margin-top: 50px;
-    }
-    
-    header .header-container-text h1 {
-        font-size: 30px;
-    }
-
-    header .header-container-button button {
-        width: 170px;
-    }
-    
-    header .header-container-image img {
-        height: 330px;
-    }
-
-    /* Main */
-    
-    main .skill-box .skill-box-content p {
-        font-size: 18px;
-    }
-
-    main h1 {
-        font-size: 34px;
     }
     
 }
@@ -737,28 +717,29 @@ footer .footer-icon img {
     /* Header */
 
     header .header-container-text {
+        width: 85%;
         margin-left: 30px;
     }
     
     header .header-container-text h1 {
-        font-size: 28px;
+        font-size: 30px;
     }
     
     header .header-container-text h2 {
-        font-size: 16px;
+        font-size: 18px;
     }
     
     header .header-container-button {
         top: 300px;
         margin-left: 30px;
     }
-
-    header .header-container-image {
-        height: 500px;
-    }
     
     header .header-container-hr hr {
         width: 100%;
+    }
+
+    header .header-container-image img {
+        height: 330px;
     }
     
     /* Main */
@@ -790,7 +771,7 @@ footer .footer-icon img {
     }
     
     header .header-container-image img {
-        height: 260px;
+        height: 300px;
     }
 
     /* Main */
@@ -831,20 +812,16 @@ footer .footer-icon img {
     /* Header */
 
     header .header-container-text {
-        width: 90%;
+        width: 80%;
         margin-top: 50px;
     }
 
     header .header-container-text h1 {
         font-size: 24px;
     }
-    
-    header .header-container-image {
-        height: 470px;
-    }
 
     header .header-container-image img {
-        height: 240px;
+        height: 290px;
     }
 
     /* Main */
@@ -871,12 +848,16 @@ footer .footer-icon img {
         font-size: 22px;
     }
 
+    header .header-container-text h2 {
+        font-size: 16px;
+    }
+
     header .header-container-image {
-        height: 450px;
+        height: 500px;
     }
     
     header .header-container-image img {
-        height: 215px;
+        height: 260px;
     }
 
     header .header-container-button {
