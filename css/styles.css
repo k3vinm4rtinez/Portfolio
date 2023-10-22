@@ -868,6 +868,10 @@ footer .footer-icon img {
 
     /* Main */
 
+    main hr {
+        width: 70%;
+    }
+
     main form .contact-form-message {
         height: 200px;
     }
