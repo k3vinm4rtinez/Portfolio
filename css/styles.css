@@ -20,7 +20,7 @@ header .header-container-text {
     text-align: left;
     margin-top: 30px;
     position: absolute;
-    margin-left: 100px;
+    margin-left: 10%;
     z-index: 1;
 }
 
@@ -47,7 +47,7 @@ header .header-container-button {
     position: absolute;
     cursor: pointer;
     z-index: 1;
-    margin-left: 100px;
+    margin-left: 10%;
 }
 
 header .header-container-button button {
@@ -117,8 +117,8 @@ main .carousel {
 
 main {
     margin-top: 200px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 main hr {
@@ -140,35 +140,35 @@ main .skill-box {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     background-color: #444557;
     margin-top: 50px;
     border-radius: 10px;
 }
 
 main .skill-box .skill-box-content {
-    padding: 20px;
+    padding: 28px;
 }
 
 main .skill-box .skill-box-content img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 45px;
     margin-bottom: 10px;
 }
 
 main .skill-box .skill-box-content h2 {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 main .skill-box .skill-box-content p {
     text-align: justify;
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 main .skill-box .skill-box-content h3 {
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 16px;
     color: #02B3FF;
 }
@@ -179,14 +179,14 @@ main .skill-box .skill-box-content-stars {
 }
 
 main .skill-box .skill-box-content-stars .star-0 {
-    font-size: 20px;
+    font-size: 24px;
     color: #2D2E3A;
     transition: color 0.3s;
     cursor: pointer;
 }
 
 main .skill-box .skill-box-content-stars .star-1 {
-    font-size: 20px;
+    font-size: 24px;
     color: gold;
     transition: color 0.3s;
     cursor: pointer;
@@ -336,7 +336,7 @@ footer .footer-icon img {
 
 /* RESPONSIVE */
 
-@media (max-width: 1250px) {
+@media (max-width: 1550px) {
 
     /* Header */
 
@@ -366,21 +366,13 @@ footer .footer-icon img {
         margin-right: 50px;
     }
 
-    main .main-container-skills-boxes .skill-box .skill-box-content h2 {
-        font-size: 16px;
-    }
-        
-    main .main-container-skills-boxes .skill-box .skill-box-content p {
-        font-size: 14px;
-    }
-
     main form {
         margin-right: 50px;
     }
 
     }
 
-@media (max-width: 1050px) {
+@media (max-width: 1350px) {
 
     /* Header */
 
@@ -404,28 +396,28 @@ footer .footer-icon img {
     }
 
     main .main-container-skills-boxes .skill-box {
-        width: 380px;
-        height: 380px;
+        width: 330px;
+        height: 330px;
     }
 
     main .main-container-skills-boxes .skill-box .skill-box-content h2 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     main .main-container-skills-boxes .skill-box .skill-box-content h3 {
-        font-size: 22px;
+        font-size: 20px;
     }
         
     main .main-container-skills-boxes .skill-box .skill-box-content p {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     main .main-container-skills-boxes .skill-box .skill-box-content .skill-box-content-stars .star-1 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     main .main-container-skills-boxes .skill-box .skill-box-content .skill-box-content-stars .star-0 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     }
