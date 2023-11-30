@@ -4,13 +4,27 @@
 }
 
 body {
-    background-color: #2D2E3A;
+    background-color: rgb(48, 50, 74);
     color: #ffff;
     margin-top: 50px;
     font-family: "inter";
 }
 
 /* HEADER */
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+}
+
+header .background {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    width: 95%;
+    overflow: hidden;
+}
 
 /* Texto del header */
 
@@ -20,7 +34,7 @@ header .header-container-text {
     text-align: left;
     margin-top: 30px;
     position: absolute;
-    margin-left: 10%;
+    margin-left: 5%;
     z-index: 1;
 }
 
@@ -47,7 +61,7 @@ header .header-container-button {
     position: absolute;
     cursor: pointer;
     z-index: 1;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 header .header-container-button button {
@@ -74,8 +88,7 @@ header .header-container-button button a {
 
 header .header-container-image {
     display: flex;
-    height: 550px;
-    width: 100%;
+    height: 100%;
     position: relative;
     flex-direction: row;
     justify-content: flex-end;
@@ -86,39 +99,28 @@ header .header-container-image {
 header .header-container-image img {
     height: 500px;
     position: absolute;
-    right: -70px;
-}
-
-header .header-container-hr {
-    display: flex;
-    width: 100%;
-    position: relative;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-header .header-container-hr hr {
-    height: 2px;
-    width: 100%;
-    background-color: #444557;
-    border: none;
-    border-radius: 2px;
-    margin-top: 0px;
 }
 
 /* MAIN */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .background {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    width: 95%;
+    padding: 5%;
+    margin-top: 150px;
+}
 
 /* Habilidades */
 
 main .carousel {
     display: none;
-}
-
-main {
-    margin-top: 200px;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 main hr {
@@ -357,15 +359,6 @@ footer .footer-icon img {
 
     /* Main */
 
-    main {
-        margin-left: 50px;
-        margin-right: 0px;
-    }
-
-    main .main-container-skills-boxes {
-        margin-right: 50px;
-    }
-
     main form {
         margin-right: 50px;
     }
@@ -389,11 +382,6 @@ footer .footer-icon img {
     }
 
     /* Main */
-
-    main {
-        margin-left: 100px;
-        margin-right: 50px;
-    }
 
     main .main-container-skills-boxes .skill-box {
         width: 330px;
