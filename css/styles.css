@@ -100,7 +100,7 @@ header .header-container-image {
 }
 
 header .header-container-image img {
-    height: 90%!important;
+    height: 80%!important;
     position: absolute;
 }
 
@@ -494,17 +494,17 @@ footer .footer-icon img {
     /* Header */
 
     header .header-container-text h1 {
-        font-size: 36px;
+        font-size: 38px;
     }
 
     header .header-container-text h2 {
-        font-size: 22px;
+        font-size: 24px;
     }
 
     /* Imágen del header */
 
     header .header-container-image img {
-        height: 85%!important;
+        height: 75%!important;
     }
 
     /* Botón del header */
@@ -525,6 +525,10 @@ footer .footer-icon img {
 @media (max-width: 980px) {
 
     /* Header */
+
+    header {
+        height: 80vh;
+    }
 
     header .header-container-text h1 {
         font-size: 32px;
@@ -623,7 +627,8 @@ footer .footer-icon img {
     /* Botón del header */
 
     header .header-container-button {
-        margin-left: 5rem;
+        margin-left: 2rem;
+        top: 13rem!important
     }
 
     header .header-container-button button {
@@ -681,7 +686,7 @@ footer .footer-icon img {
     /* Imágen del header */
 
     header .header-container-image img {
-        height: 80%!important;
+        height: 70%!important;
     }
     
     /* Main */
@@ -708,6 +713,10 @@ footer .footer-icon img {
 @media (max-width: 750px) {
 
     /* Header */
+
+    header {
+        height: 70vh;
+    }
     
     header .header-container-text h1 {
         font-size: 30px;
@@ -722,7 +731,6 @@ footer .footer-icon img {
     header .header-container-image img {
         height: 70%!important;
     }
-
     
     /* Main */
 
