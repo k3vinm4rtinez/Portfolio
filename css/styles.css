@@ -6,7 +6,7 @@
 body {
     background-color: rgb(48, 50, 74);
     color: #ffff;
-    margin-top: 50px;
+    margin-top: 2rem;
     font-family: "inter";
 }
 
@@ -24,12 +24,13 @@ header .background {
     border-radius: 50px;
     width: 95%;
     overflow: hidden;
+    position: relative;
 }
 
 /* Texto del header */
 
 header .header-container-text {
-    width: 45%;
+    width: 100%;
     float: left;
     text-align: left;
     margin-top: 30px;
@@ -40,7 +41,7 @@ header .header-container-text {
 
 header .header-container-text h1 {
     color: #ffff;
-    font-size: 40px;
+    font-size: 68px;
 }
 
 header .header-container-text h1 span {
@@ -50,27 +51,29 @@ header .header-container-text h1 span {
 
 header .header-container-text h2 {
     color: #444557;
-    font-size: 25px;
+    font-size: 40px;
 }
 
 /* Botón del header */
 
 header .header-container-button {
     width: 50%;
-    top: 400px;
+    top: 60%!important;
     position: absolute;
     cursor: pointer;
     z-index: 1;
-    margin-left: 5%;
+    margin-left: 16rem;
 }
 
 header .header-container-button button {
-    height: 50px;
-    width: 200px;
+    height: 7rem;
+    width: 25rem;
     border: none;
-    border-radius: 10px;
+    border-radius: 2rem;
     background-color: #02B3FF;
-    color: #ffff;
+    color: #2D2E3A;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 header .header-container-button button:hover {
@@ -97,7 +100,7 @@ header .header-container-image {
 }
 
 header .header-container-image img {
-    height: 500px;
+    height: 90%!important;
     position: absolute;
 }
 
@@ -142,15 +145,15 @@ main .skill-box {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 400px;
-    width: 400px;
+    height: 30rem;
+    width: 30rem;
     background-color: #444557;
     margin-top: 50px;
-    border-radius: 10px;
+    border-radius: 2rem;
 }
 
 main .skill-box .skill-box-content {
-    padding: 28px;
+    padding: 2rem;
 }
 
 main .skill-box .skill-box-content img {
@@ -160,17 +163,17 @@ main .skill-box .skill-box-content img {
 }
 
 main .skill-box .skill-box-content h2 {
-    font-size: 24px;
+    font-size: 40px;
 }
 
 main .skill-box .skill-box-content p {
     text-align: justify;
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 main .skill-box .skill-box-content h3 {
-    font-size: 22px;
+    font-size: 25px;
     margin-top: 16px;
     color: #02B3FF;
 }
@@ -181,14 +184,14 @@ main .skill-box .skill-box-content-stars {
 }
 
 main .skill-box .skill-box-content-stars .star-0 {
-    font-size: 24px;
+    font-size: 30px;
     color: #2D2E3A;
     transition: color 0.3s;
     cursor: pointer;
 }
 
 main .skill-box .skill-box-content-stars .star-1 {
-    font-size: 24px;
+    font-size: 30px;
     color: gold;
     transition: color 0.3s;
     cursor: pointer;
@@ -197,7 +200,7 @@ main .skill-box .skill-box-content-stars .star-1 {
 /* Formulario de contacto */
 
 main .main-container-contact-title {
-    margin-top: 200px;
+    margin-top: 4rem;
 }
 
 main form {
@@ -207,7 +210,7 @@ main form {
 }
 
 main form h2 {
-    font-size: 20px;
+    font-size: 26px;
     margin-left: 20px;
 }
 
@@ -252,12 +255,12 @@ main form textarea::placeholder {
 }
 
 main form .contact-form-email {
-    height: 50px;
+    height: 4rem;
     width: 50%;
 }
 
 main form .contact-form-name {
-    height: 50px;
+    height: 4rem;
     width: 50%;
 }
 
@@ -277,20 +280,20 @@ main form h2 {
 /* Botón de enviar */
 
 main .main-container-button {
-    margin-top: 20px;
+    margin-top: 2rem;
     width: 60%;
     display: flex;
     justify-content: flex-start;
 }
 
 main .main-container-button button {
-    height: 40px;
-    width: 150px;
+    height: 5rem;
+    width: 12rem;
     border: none;
-    border-radius: 10px;
+    border-radius: 1rem;
     background-color: #02B3FF;
     color: #ffff;
-    font-size: 15px;
+    font-size: 26px;
 }
 
 /* FOOTER */
@@ -338,47 +341,123 @@ footer .footer-icon img {
 
 /* RESPONSIVE */
 
-@media (max-width: 1550px) {
+@media (max-width: 1750px) {
 
-    /* Header */
-
-    header .header-container-image img {
-        height: 450px;
-        margin-top: 50px;
-    }
+    /* Texto del header */
 
     header .header-container-text {
-        width: 55%;
-        margin-top: 50px;
-        margin-left: 50px;
+        width: 100%;
     }
+
+    header .header-container-text h1 {
+        font-size: 62px;
+    }
+
+    header .header-container-text h2 {
+        font-size: 32px;
+    }
+
+    /* Botón del header */
 
     header .header-container-button {
-        margin-left: 50px;
+        width: 50%;
+        top: 30rem;
     }
 
-    /* Main */
-
-    main form {
-        margin-right: 50px;
+    header .header-container-button button {
+        height: 7rem;
+        width: 23rem;
+        border-radius: 2rem;
+        font-size: 28px;
     }
 
+}
+
+@media (max-width: 1550px) {
+
+    /* Texto del header */
+
+    header .header-container-text {
+        width: 100%;
     }
+
+    header .header-container-text h1 {
+        font-size: 58px;
+    }
+
+    header .header-container-text h2 {
+        font-size: 28px;
+    }
+
+    /* Botón del header */
+
+    header .header-container-button {
+        width: 50%;
+        top: 30rem;
+        margin-left: 12rem;
+    }
+
+    header .header-container-button button {
+        height: 7rem;
+        width: 23rem;
+        border-radius: 2rem;
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 1450px) {
+
+    /* Texto del header */
+
+    header .header-container-text {
+        width: 100%;
+    }
+
+    header .header-container-text h1 {
+        font-size: 52px;
+    }
+
+    header .header-container-text h2 {
+        font-size: 26px;
+    }
+
+    /* Botón del header */
+
+    header .header-container-button {
+        width: 50%;
+        top: 30rem;
+        margin-left: 10rem;
+    }
+
+    header .header-container-button button {
+        height: 7rem;
+        width: 23rem;
+        border-radius: 2rem;
+        font-size: 28px;
+    }
+
+}
 
 @media (max-width: 1350px) {
 
     /* Header */
 
     header .header-container-text h1 {
-        font-size: 36px;
+        font-size: 42px;
     }
 
     header .header-container-text h2 {
-        font-size: 22px;
+        font-size: 26px;
     }
 
-    header .header-container-button {
-        top: 300px;
+    /* Botón del header */
+
+    header .header-container-button button {
+        height: 5rem;
+        width: 19rem;
+        border-radius: 1rem;
+        font-size: 26px;
     }
 
     /* Main */
@@ -408,31 +487,64 @@ footer .footer-icon img {
         font-size: 22px;
     }
 
+}
+
+@media (max-width: 1150px) {
+
+    /* Header */
+
+    header .header-container-text h1 {
+        font-size: 36px;
     }
+
+    header .header-container-text h2 {
+        font-size: 22px;
+    }
+
+    /* Imágen del header */
+
+    header .header-container-image img {
+        height: 85%!important;
+    }
+
+    /* Botón del header */
+
+    header .header-container-button {
+        margin-left: 5rem;
+    }
+
+    header .header-container-button button {
+        height: 4rem;
+        width: 15rem;
+        border-radius: 1rem;
+        font-size: 26px;
+    }
+
+}
 
 @media (max-width: 980px) {
 
     /* Header */
-    
-    header .header-container-text {
-        width: 60%;
-    }
-    
+
     header .header-container-text h1 {
-        color: #ffff;
-        font-size: 38px;
+        font-size: 32px;
     }
-    
+
+    header .header-container-text h2 {
+        font-size: 18px;
+    }
+
+    /* Botón del header */
+
     header .header-container-button {
-        top: 330px;
+        margin-left: 5rem;
     }
-    
-    header .header-container-image img {
-        height: 400px;
-    }
-    
-    header .header-container-image hr {
-        width: 100%;
+
+    header .header-container-button button {
+        height: 3rem;
+        width: 12rem;
+        border-radius: 0.8rem;
+        font-size: 20px;
     }
     
     /* Main */
@@ -499,13 +611,26 @@ footer .footer-icon img {
 @media (max-width: 900px) {
 
     /* Header */
-    
+
     header .header-container-text h1 {
-        font-size: 34px;
+        font-size: 28px;
     }
-    
+
     header .header-container-text h2 {
-        font-size: 20px;
+        font-size: 16px;
+    }
+
+    /* Botón del header */
+
+    header .header-container-button {
+        margin-left: 5rem;
+    }
+
+    header .header-container-button button {
+        height: 2.8rem;
+        width: 10rem;
+        border-radius: 0.8rem;
+        font-size: 14px;
     }
 
     /* Main */
@@ -546,11 +671,17 @@ footer .footer-icon img {
     /* Header */
     
     header .header-container-text h1 {
-        font-size: 32px;
+        font-size: 26px;
     }
     
     header .header-container-text h2 {
-        font-size: 18px;
+        font-size: 15px;
+    }
+
+    /* Imágen del header */
+
+    header .header-container-image img {
+        height: 80%!important;
     }
     
     /* Main */
@@ -578,20 +709,18 @@ footer .footer-icon img {
 
     /* Header */
     
-    header .header-container-text {
-        width: 70%;
-    }
-
     header .header-container-text h1 {
         font-size: 30px;
     }
-
-    header .header-container-button button {
-        width: 170px;
-    }
     
+    header .header-container-text h2 {
+        font-size: 20px;
+    }
+
+    /* Imágen del header */
+
     header .header-container-image img {
-        height: 350px;
+        height: 70%!important;
     }
 
     
@@ -645,14 +774,34 @@ footer .footer-icon img {
 @media (max-width: 650px) {
 
     /* Header */
-
-    header .header-container-text {
-        margin-left: 40px;
+    
+    header .header-container-text h1 {
+        font-size: 34px;
     }
     
-    header .header-container-button {
-        margin-left: 40px;
+    header .header-container-text h2 {
+        font-size: 22px;
     }
+
+    /* Imágen del header */
+
+    header .header-container-image img {
+        height: 65%!important;
+    }
+
+    /* Botón del header */
+
+    header .header-container-button {
+        margin-left: 2rem;
+    }
+
+    header .header-container-button button {
+        height: 2.8rem;
+        width: 10rem;
+        border-radius: 0.8rem;
+        font-size: 14px;
+    }
+
     
     /* Main */
 
@@ -734,20 +883,69 @@ footer .footer-icon img {
     
 }
 
+@media (max-width: 520px) {
+
+    /* Header */
+    
+    header .header-container-text h1 {
+        font-size: 28px;
+    }
+    
+    header .header-container-text h2 {
+        font-size: 14px;
+    }
+
+    /* Imágen del header */
+
+    header .header-container-image img {
+        height: 65%!important;
+    }
+
+    /* Botón del header */
+
+    header .header-container-button {
+        margin-left: 2rem;
+    }
+
+    header .header-container-button button {
+        height: 2.8rem;
+        width: 10rem;
+        border-radius: 0.8rem;
+        font-size: 14px;
+    }
+
+}
+
 @media (max-width: 500px) {
 
     /* Header */
     
-    header {
-        height: 550px;
-    }
-    
     header .header-container-text h1 {
-        font-size: 26px;
+        font-size: 28px;
     }
     
+    header .header-container-text h2 {
+        font-size: 14px;
+    }
+
+    /* Imágen del header */
+
     header .header-container-image img {
-        height: 300px;
+        height: 55%!important;
+    }
+
+    /* Botón del header */
+
+    header .header-container-button {
+        margin-left: 2rem;
+        top: 13rem!important;
+    }
+
+    header .header-container-button button {
+        height: 2.8rem;
+        width: 10rem;
+        border-radius: 0.8rem;
+        font-size: 14px;
     }
 
     /* Main */
@@ -787,17 +985,36 @@ footer .footer-icon img {
 
     /* Header */
 
-    header .header-container-text {
-        width: 80%;
-        margin-top: 50px;
+    header {
+        height: 70vh;
     }
-
+    
     header .header-container-text h1 {
         font-size: 24px;
     }
+    
+    header .header-container-text h2 {
+        font-size: 14px;
+    }
+
+    /* Imágen del header */
 
     header .header-container-image img {
-        height: 290px;
+        height: 55%!important;
+    }
+
+    /* Botón del header */
+
+    header .header-container-button {
+        margin-left: 2rem;
+        top: 12rem!important;
+    }
+
+    header .header-container-button button {
+        height: 2.8rem;
+        width: 10rem;
+        border-radius: 0.8rem;
+        font-size: 14px;
     }
 
     /* Main */
@@ -815,35 +1032,37 @@ footer .footer-icon img {
 @media (max-width: 400px) {
 
     /* Header */
-    
+
     header {
-        height: 550px;
+        height: 60vh!important;
     }
     
     header .header-container-text h1 {
-        font-size: 22px;
-    }
-
-    header .header-container-text h2 {
-        font-size: 16px;
-    }
-
-    header .header-container-image {
-        height: 500px;
+        font-size: 20px;
     }
     
-    header .header-container-image img {
-        height: 260px;
+    header .header-container-text h2 {
+        font-size: 12px;
     }
 
+    /* Imágen del header */
+
+    header .header-container-image img {
+        height: 55%!important;
+    }
+
+    /* Botón del header */
+
     header .header-container-button {
-        top: 280px;
+        margin-left: 2rem;
+        top: 10rem!important;
     }
 
     header .header-container-button button {
-        width: 135px;
-        height: 40px;
-        font-size: 14px;
+        height: 2.4rem;
+        width: 8rem;
+        border-radius: 0.8rem;
+        font-size: 13px;
     }
 
     /* Main */
