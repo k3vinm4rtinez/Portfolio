@@ -460,7 +460,7 @@ footer .footer-icon img {
     left: 0;
     width: 100%;
     height: calc(46% - 115px);
-    opacity: 0.69;
+    opacity: 0.5;
     z-index: 998;
     border: none;
 }
@@ -481,7 +481,7 @@ footer .footer-icon img {
 
     animation: wave1 15s linear infinite;
     animation-delay: 0s;
-    opacity: 0.5;
+    opacity: 0.3;
     bottom: 0;
     z-index: 997;
 }
@@ -489,7 +489,7 @@ footer .footer-icon img {
 .wave2 {
     animation: wave2 5s linear infinite;
     animation-delay: -5s;
-    opacity: 0.3;
+    opacity: 0.2;
     bottom: 0;
 }
 
