@@ -448,6 +448,75 @@ footer .footer-icon img {
     }
 }
 
+/* OLAS */
+
+.bg-white {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: calc(40% - 200px);
+    opacity: 0.7;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background-image: url("../libs/img/wave.png");
+    background-size: 100vw 200px;
+    background-repeat: no-repeat;
+}
+
+.wave1 {
+
+    animation: wave1 30s linear infinite;
+    animation-delay: 0s;
+    opacity: 0.7;
+    bottom: 0;
+}
+@keyframes wave1 {
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 100vw;
+    }
+}
+
+.wave2 {
+
+    animation: wave2 15s linear infinite;
+    animation-delay: -5s;
+    opacity: 0.5;
+    bottom: 10px;
+}
+@keyframes wave2 {
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: -100vw;
+    }
+}
+
+.wave3 {
+
+    animation: wave 15s linear infinite;
+    animation-delay: -2s;
+    opacity: 0.2;
+    bottom: 15px;
+}
+
+.wave4 {
+
+    animation: wave2 5s linear infinite;
+    animation-delay: -5s;
+    opacity: 0.7;
+    bottom: 20px;
+}
 
 /* RESPONSIVE */
 
@@ -1011,6 +1080,7 @@ footer .footer-icon img {
     
     main .skill-box {
         width: 100%;
+        margin-top: 0px;
     }
 
     main form .contact-form-name {
@@ -1019,6 +1089,74 @@ footer .footer-icon img {
 
     main form .contact-form-email {
         width: 90%;
+    }
+
+    /* BURBUJAS */
+
+    .bubble:nth-child(1) {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .bubble:nth-child(2) {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .bubble:nth-child(3) {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .bubble:nth-child(4) {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .bubble:nth-child(5) {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .bubble:nth-child(6) {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .bubble:nth-child(7) {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .bubble:nth-child(8) {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .bubble:nth-child(9) {
+        width: 1.5rem;
+        height: 1.5rem;
+        display: none;
+    }
+
+    @keyframes bubbles {
+        0%{
+            bottom: 0;
+            opacity: 0;
+        }
+        40%{
+            transform: translateX(1rem);
+        }
+        50%{
+            opacity: 0.5;
+        }
+        60%{
+            transform: translateX(-1rem);
+        }
+        100%{
+            bottom: 100%;
+            opacity: 0;
+        }
     }
     
 }
