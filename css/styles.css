@@ -1315,11 +1315,11 @@ footer .footer-icon img {
     /* OLAS */
 
     .bg-white {
-        height: 79rem;
+        height: 64rem;
     }
     
     .wave {
-        height: calc(79rem + 50px);
+        height: calc(64rem + 50px);
         background-size: 100vw 50px;
     }
 
