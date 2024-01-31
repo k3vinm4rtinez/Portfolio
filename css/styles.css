@@ -1422,12 +1422,12 @@ footer .footer-icon img {
     /* OLAS */
 
     .bg-white {
-        height: 75rem;
+        height: 59rem;
     }
     
     .wave {
-        height: calc(75rem + 45px);
-        background-size: 100vw 45px;
+        height: calc(59rem + 40px);
+        background-size: 100vw 40px;
     }
     
 }
