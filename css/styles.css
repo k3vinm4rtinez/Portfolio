@@ -26,6 +26,8 @@ header .background {
     width: 95%;
     overflow: hidden;
     position: relative;
+    z-index: 10;
+    backdrop-filter: blur(0.3rem)!important;
 }
 
 /* Texto del header */
@@ -121,6 +123,7 @@ main .background {
     padding: 5%;
     margin-top: 5rem;
     z-index: 10;
+    backdrop-filter: blur(0.3rem)!important;
 }
 
 /* Habilidades */
@@ -350,7 +353,7 @@ footer .footer-icon img {
 
     position: absolute;
     bottom: -150;
-    background-color: #CDCDCD;
+    background-color: rgb(220, 220, 220);
     z-index: 1;
 
     animation: bubbles 5s linear infinite;
@@ -459,8 +462,8 @@ footer .footer-icon img {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: calc(46% - 115px);
-    opacity: 0.3;
+    height: 85rem;
+    opacity: 0.1;
     z-index: 998;
     border: none;
 }
@@ -470,7 +473,7 @@ footer .footer-icon img {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 46%;
+    height: calc(85rem + 115px);
     background-image: url("../libs/img/wave.png");
     background-size: 100vw 115px;
     border: none;
@@ -481,7 +484,7 @@ footer .footer-icon img {
 
     animation: wave1 15s linear infinite;
     animation-delay: 0s;
-    opacity: 0.2;
+    opacity: 0.05;
     bottom: 0;
     z-index: 997;
 }
@@ -489,7 +492,7 @@ footer .footer-icon img {
 .wave2 {
     animation: wave2 5s linear infinite;
     animation-delay: -5s;
-    opacity: 0.08;
+    opacity: 0.04;
     bottom: 0;
 }
 
@@ -497,7 +500,7 @@ footer .footer-icon img {
 
     animation: wave1 15s linear infinite;
     animation-delay: -2s;
-    opacity: 0.05;
+    opacity: 0.02;
     bottom: 0;
 }
 
@@ -730,6 +733,17 @@ footer .footer-icon img {
         font-size: 26px;
     }
 
+    /* OLAS */
+
+    .bg-white {
+        height: 80rem;
+    }
+    
+    .wave {
+        height: calc(80rem + 100px);
+        background-size: 100vw 100px;
+    }
+
 }
 
 @media (max-width: 980px) {
@@ -818,6 +832,17 @@ footer .footer-icon img {
     footer {
         position: absolute;
         margin: 0px;
+    }
+
+    /* OLAS */
+
+    .bg-white {
+        height: 65rem;
+    }
+    
+    .wave {
+        height: calc(65rem + 95px);
+        background-size: 100vw 95px;
     }
     
 }
@@ -1257,6 +1282,17 @@ footer .footer-icon img {
         height: 30px;
     }
 
+    /* OLAS */
+
+    .bg-white {
+        height: 63rem;
+    }
+    
+    .wave {
+        height: calc(63rem + 50px);
+        background-size: 100vw 50px;
+    }
+
 }
 
 @media (max-width: 450px) {
@@ -1351,6 +1387,17 @@ footer .footer-icon img {
 
     main form .contact-form-message {
         height: 200px;
+    }
+
+    /* OLAS */
+
+    .bg-white {
+        height: 59rem;
+    }
+    
+    .wave {
+        height: calc(59rem + 45px);
+        background-size: 100vw 45px;
     }
     
 }
