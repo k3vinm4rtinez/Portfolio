@@ -64,7 +64,7 @@ header .header-container-button {
     top: 60%!important;
     position: absolute;
     cursor: pointer;
-    z-index: 1;
+    z-index: 10000;
     margin-left: 16rem;
 }
 
@@ -72,7 +72,7 @@ header .header-container-button button {
     height: 7rem;
     width: 25rem;
     border: none;
-    border-radius: 2rem;
+    border-radius: 10rem;
     background-color: #02B3FF;
     color: #2D2E3A;
     font-size: 30px;
@@ -549,7 +549,6 @@ footer .footer-icon img {
     header .header-container-button button {
         height: 7rem;
         width: 23rem;
-        border-radius: 2rem;
         font-size: 28px;
     }
 
@@ -613,7 +612,6 @@ footer .footer-icon img {
     header .header-container-button button {
         height: 7rem;
         width: 23rem;
-        border-radius: 2rem;
         font-size: 28px;
     }
 
@@ -646,7 +644,6 @@ footer .footer-icon img {
     header .header-container-button button {
         height: 7rem;
         width: 23rem;
-        border-radius: 2rem;
         font-size: 28px;
     }
 
@@ -667,9 +664,8 @@ footer .footer-icon img {
     /* Botón del header */
 
     header .header-container-button button {
-        height: 5rem;
+        height: 6rem;
         width: 19rem;
-        border-radius: 1rem;
         font-size: 26px;
     }
 
@@ -727,9 +723,8 @@ footer .footer-icon img {
     }
 
     header .header-container-button button {
-        height: 4rem;
+        height: 5rem;
         width: 15rem;
-        border-radius: 1rem;
         font-size: 26px;
     }
 
@@ -769,9 +764,8 @@ footer .footer-icon img {
     }
 
     header .header-container-button button {
-        height: 3rem;
+        height: 4rem;
         width: 12rem;
-        border-radius: 0.8rem;
         font-size: 20px;
     }
     
@@ -860,9 +854,8 @@ footer .footer-icon img {
     }
 
     header .header-container-button button {
-        height: 2.8rem;
+        height: 3rem;
         width: 10rem;
-        border-radius: 0.8rem;
         font-size: 14px;
     }
 
@@ -1032,9 +1025,8 @@ footer .footer-icon img {
     }
 
     header .header-container-button button {
-        height: 2.8rem;
+        height: 3rem;
         width: 10rem;
-        border-radius: 0.8rem;
         font-size: 14px;
     }
 
@@ -1204,9 +1196,8 @@ footer .footer-icon img {
     }
 
     header .header-container-button button {
-        height: 2.8rem;
+        height: 3rem;
         width: 10rem;
-        border-radius: 0.8rem;
         font-size: 14px;
     }
 
@@ -1238,9 +1229,8 @@ footer .footer-icon img {
     }
 
     header .header-container-button button {
-        height: 2.8rem;
+        height: 3rem;
         width: 10rem;
-        border-radius: 0.8rem;
         font-size: 14px;
     }
 
@@ -1355,9 +1345,8 @@ footer .footer-icon img {
     }
 
     header .header-container-button button {
-        height: 2.8rem;
+        height: 3rem;
         width: 10rem;
-        border-radius: 0.8rem;
         font-size: 14px;
     }
 
@@ -1403,9 +1392,8 @@ footer .footer-icon img {
     }
 
     header .header-container-button button {
-        height: 2.4rem;
+        height: 3rem;
         width: 8rem;
-        border-radius: 0.8rem;
         font-size: 13px;
     }
 
@@ -1462,9 +1450,8 @@ footer .footer-icon img {
     }
 
     header .header-container-button button {
-        height: 2.4rem;
+        height: 3rem;
         width: 8rem;
-        border-radius: 0.8rem;
         font-size: 13px;
     }
 
