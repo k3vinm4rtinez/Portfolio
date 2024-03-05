@@ -229,6 +229,64 @@ footer .footer-icon img {
     animation-delay: 1s;
 }
 
+/* TAGS */
+
+.tags {
+    display: flex;
+    list-style: none;
+    padding: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.html::before {
+    content: "HTML";
+    background-color: rgba(2, 179, 255, 0.5);
+    padding: 0.6rem;
+    color: #2D2E3A;
+    font-weight: bold;
+    border-radius: 1rem;
+    border: solid 2px #02b3ff;
+    font-size: 14px;
+    margin-right: 0.5rem;
+}
+
+.css::before {
+    content: "CSS";
+    background-color: rgba(2, 179, 255, 0.5);
+    padding: 0.6rem;
+    color: #2D2E3A;
+    font-weight: bold;
+    border-radius: 1rem;
+    border: solid 2px #02b3ff;
+    font-size: 14px;
+    margin-right: 0.5rem;
+}
+
+.js::before {
+    content: "JS";
+    background-color: rgba(2, 179, 255, 0.5);
+    padding: 0.6rem;
+    color: #2D2E3A;
+    font-weight: bold;
+    border-radius: 1rem;
+    border: solid 2px #02b3ff;
+    font-size: 14px;
+    margin-right: 0.5rem;
+}
+
+.uxui::before {
+    content: "UX/UI";
+    background-color: rgba(2, 179, 255, 0.5);
+    padding: 0.6rem;
+    color: #2D2E3A;
+    font-weight: bold;
+    border-radius: 1rem;
+    border: solid 2px #02b3ff;
+    font-size: 14px;
+    margin-right: 0.5rem;
+}
+
 @keyframes bubbles {
     0%{
         bottom: 0;
