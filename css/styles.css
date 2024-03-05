@@ -296,10 +296,11 @@ main .main-container-button button {
     height: 5rem;
     width: 12rem;
     border: none;
-    border-radius: 1rem;
+    border-radius: 10rem;
     background-color: #02B3FF;
-    color: #ffff;
+    color: #2D2E3A;;
     font-size: 26px;
+    font-weight: bold;
 }
 
 /* FOOTER */
