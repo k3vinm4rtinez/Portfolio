@@ -33,7 +33,6 @@ header .background {
 /* Texto del header */
 
 header .header-container-text {
-    width: 100%;
     float: left;
     text-align: left;
     margin-top: 30px;
@@ -43,18 +42,39 @@ header .header-container-text {
 }
 
 header .header-container-text h1 {
-    color: #ffff;
+    color: #CDCDCD;
     font-size: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 header .header-container-text h1 span {
     color: #02B3FF;
     transition: 0.3s;
+    margin-left: 1rem;
 }
 
 header .header-container-text h2 {
     color: #444557;
     font-size: 40px;
+}
+
+#typebar {
+    height: 1px;
+    width: 3.2rem;
+    transform: rotate(90deg);
+    background-color: #CDCDCD;
+    margin: 0px;
+}
+
+@keyframes typebar {
+    from{
+        opacity: 100%;
+    }
+    to{
+        opacity: 0%;
+    }
 }
 
 /* Botón del header */
@@ -82,6 +102,7 @@ header .header-container-button button {
 header .header-container-button button:hover {
     background-color: #02b3ff6f;
     border: solid 2px #02B3FF;
+    color: #02B3FF;
 }
 
 header .header-container-button button a {
@@ -156,6 +177,7 @@ main .skill-box {
     background-color: #444557;
     margin-top: 50px;
     border-radius: 2rem;
+    visibility: hidden;
 }
 
 main .skill-box .skill-box-content {
@@ -212,7 +234,7 @@ main .main-container-contact-title {
 main form {
     display: flex;
     flex-direction: column;
-    margin-right: 100px;
+    position: relative;
 }
 
 main form h2 {
@@ -301,6 +323,12 @@ main .main-container-button button {
     color: #2D2E3A;;
     font-size: 26px;
     font-weight: bold;
+}
+
+main .main-container-button button:hover {
+    background-color: #02b3ff6f;
+    border: solid 2px #02B3FF;
+    color: #02B3FF;
 }
 
 /* FOOTER */
@@ -505,6 +533,17 @@ footer .footer-icon img {
     bottom: 0;
 }
 
+/* ANIMACIONES */
+
+@keyframes aparecer {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
 @keyframes wave1 {
     0%{
         background-position-x: 0px;
@@ -538,6 +577,11 @@ footer .footer-icon img {
 
     header .header-container-text h2 {
         font-size: 32px;
+    }
+
+    #typebar {
+        height: 1px;
+        width: 2.8rem;
     }
 
     /* Botón del header */
@@ -602,6 +646,11 @@ footer .footer-icon img {
         font-size: 28px;
     }
 
+    #typebar {
+        height: 1px;
+        width: 2.5rem;
+    }
+
     /* Botón del header */
 
     header .header-container-button {
@@ -634,6 +683,11 @@ footer .footer-icon img {
         font-size: 26px;
     }
 
+    #typebar {
+        height: 1px;
+        width: 2.2rem;
+    }
+
     /* Botón del header */
 
     header .header-container-button {
@@ -660,6 +714,11 @@ footer .footer-icon img {
 
     header .header-container-text h2 {
         font-size: 26px;
+    }
+
+    #typebar {
+        height: 1px;
+        width: 2rem;
     }
 
     /* Botón del header */
@@ -711,6 +770,11 @@ footer .footer-icon img {
         font-size: 24px;
     }
 
+    #typebar {
+        height: 1px;
+        width: 1.7rem;
+    }
+
     /* Imágen del header */
 
     header .header-container-image img {
@@ -756,6 +820,11 @@ footer .footer-icon img {
 
     header .header-container-text h2 {
         font-size: 18px;
+    }
+
+    #typebar {
+        height: 1px;
+        width: 1.5rem;
     }
 
     /* Botón del header */
@@ -845,6 +914,11 @@ footer .footer-icon img {
 
     header .header-container-text h2 {
         font-size: 16px;
+    }
+
+    #typebar {
+        height: 1px;
+        width: 1.3rem;
     }
 
     /* Botón del header */
@@ -1013,6 +1087,11 @@ footer .footer-icon img {
         font-size: 22px;
     }
 
+    #typebar {
+        height: 1px;
+        width: 1.5rem;
+    }
+
     /* Imágen del header */
 
     header .header-container-image img {
@@ -1086,6 +1165,12 @@ footer .footer-icon img {
     header .header-container-image img {
         height: 330px;
     }
+
+    #typebar {
+        height: 1px;
+        width: 1.2rem;
+    }
+
     
     /* Main */
     
@@ -1351,6 +1436,11 @@ footer .footer-icon img {
         font-size: 14px;
     }
 
+    #typebar {
+        height: 1px;
+        width: 1rem;
+    }
+
     /* Main */
 
     main .skill-box {
@@ -1377,6 +1467,11 @@ footer .footer-icon img {
     
     header .header-container-text h2 {
         font-size: 12px;
+    }
+
+    #typebar {
+        height: 1px;
+        width: 0.8rem;
     }
 
     /* Imágen del header */

@@ -13,10 +13,9 @@
     <header>
         <div class="background">
             <div class="header-container-text">
-                <h1>¡Hola! Soy <span>Kevin Martínez</span>,</h1>
-                <h1> diseñador y desarrollador web</h1>
-                <h2>Hago diseño UX/UI a través de Figma, y realizo</h2>
-                <h2>maquetado web con HTML Y CSS</h2>
+                <h1>Soy <span id="letter-container"></span><hr id="typebar"></hr></h1>
+                <h2>Desarrollador y diseñador web Jr.</h2>
+                <h2>Utilizo los lenguajes HTML, CSS y Javascript</h2>
             </div>
             <div class="header-container-button">
                 <button onclick="location.href='work.html'">Mira mi trabajo</button>
@@ -36,7 +35,7 @@
             <!-- HABILIDADES PARA PC-->
             
             <div class="main-container-skills-boxes">
-                <div class="skill-box">
+                <div class="skill-box" id="sb1">
                     <div class="skill-box-content">
                         <img src="./libs/img/icons/html-icon.png" />
                         <img src="./libs/img/icons/css-icon.png" />
@@ -51,7 +50,7 @@
                         <p>Aprendí HTML y CSS a través de distintos cursos en internet, considero que tengo un conocimiento competente en ambos lenguajes. </p>
                     </div>
                 </div>
-                <div class="skill-box">
+                <div class="skill-box" id="sb2">
                     <div class="skill-box-content">
                         <img src="./libs/img/icons/bootstrap-icon.png" />
                         <h2>Bootstrap</h2>
@@ -65,7 +64,7 @@
                         <p>Bootstrap es el framework que más suelo utilizar para ahorrar tiempo al desarrollar una página web.</p>
                     </div>
                 </div>
-                <div class="skill-box">
+                <div class="skill-box" id="sb3">
                     <div class="skill-box-content">
                         <img src="./libs/img/icons/figma-icon.png" />
                         <h2>Figma</h2>
@@ -79,7 +78,7 @@
                         <p>Comencé utilizando Adobe XD para realizar diseños web, y en la actualidad uso Figma, programa que aprendí por mi cuenta a raíz de la necesidad de previsualizar mis maquetas web previo al desarrollo.</p>
                     </div>
                 </div>
-                <div class="skill-box">
+                <div class="skill-box" id="sb4">
                     <div class="skill-box-content">
                         <img src="./libs/img/icons/git-icon.png" />
                         <h2>GIT</h2>
@@ -93,21 +92,21 @@
                         <p>La herramienta GIT es con la que guardo todos mis proyectos a través de la plataforma GitHub, conozco todos los comandos que necesito.</p>
                     </div>
                 </div>
-                <div class="skill-box">
+                <div class="skill-box" id="sb5">
                     <div class="skill-box-content">
                         <img src="./libs/img/icons/js-icon.png" />
                         <h2>Javascript</h2>
                         <div class="skill-box-content-stars">
                             <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-0"></i>
-                            <i class="bi bi-star-fill star-0"></i>
+                            <i class="bi bi-star-fill star-1"></i>
+                            <i class="bi bi-star-fill star-1"></i>
                             <i class="bi bi-star-fill star-0"></i>
                             <i class="bi bi-star-fill star-0"></i>
                         </div>
                         <p>Me encuentro en costante aprendizaje del lenguaje Javascript, considero que es sustancial a la hora del desarrollo Front-End y me resulta fascinante todo lo que se puede lograr.</p>
                     </div>
                 </div>
-                <div class="skill-box">
+                <div class="skill-box" id="sb6">
                     <div class="skill-box-content">
                         <img src="./libs/img/icons/idiomas-icon.png" />
                         <h2>Idiomas</h2>
@@ -115,7 +114,7 @@
                         <div class="skill-box-content-stars">
                             <i class="bi bi-star-fill star-1"></i>
                             <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-0"></i>
+                            <i class="bi bi-star-fill star-1"></i>
                             <i class="bi bi-star-fill star-0"></i>
                             <i class="bi bi-star-fill star-0"></i>
                         </div>
@@ -268,7 +267,6 @@
                     </div>
                 </form>
                 <a href="mailto:kevinmartinezcto@gmail.com" id="mimail">Mail</a>
-
         </div>  
     </main>
     <footer>
@@ -304,6 +302,7 @@
     </div>
 
     <script src="./js/main.js"></script>
+    <script src="./js/animations.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
