@@ -43,7 +43,7 @@ header .header-container-text {
 
 header .header-container-text h1 {
     color: #CDCDCD;
-    font-size: 68px;
+    font-size: 90px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -57,12 +57,12 @@ header .header-container-text h1 span {
 
 header .header-container-text h2 {
     color: #444557;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 #typebar {
     height: 1px;
-    width: 3.2rem;
+    width: 4.5rem;
     transform: rotate(90deg);
     background-color: #CDCDCD;
     margin: 0px;
@@ -572,16 +572,16 @@ footer .footer-icon img {
     }
 
     header .header-container-text h1 {
-        font-size: 62px;
+        font-size: 85px;
     }
 
     header .header-container-text h2 {
-        font-size: 32px;
+        font-size: 44px;
     }
 
     #typebar {
         height: 1px;
-        width: 2.8rem;
+        width: 4rem;
     }
 
     /* Botón del header */
@@ -639,16 +639,16 @@ footer .footer-icon img {
     }
 
     header .header-container-text h1 {
-        font-size: 58px;
+        font-size: 80px;
     }
 
     header .header-container-text h2 {
-        font-size: 28px;
+        font-size: 38px;
     }
 
     #typebar {
         height: 1px;
-        width: 2.5rem;
+        width: 3.8rem;
     }
 
     /* Botón del header */
@@ -676,16 +676,16 @@ footer .footer-icon img {
     }
 
     header .header-container-text h1 {
-        font-size: 52px;
+        font-size: 75px;
     }
 
     header .header-container-text h2 {
-        font-size: 26px;
+        font-size: 34px;
     }
 
     #typebar {
         height: 1px;
-        width: 2.2rem;
+        width: 3.2rem;
     }
 
     /* Botón del header */
@@ -709,16 +709,16 @@ footer .footer-icon img {
     /* Header */
 
     header .header-container-text h1 {
-        font-size: 42px;
+        font-size: 70px;
     }
 
     header .header-container-text h2 {
-        font-size: 26px;
+        font-size: 30px;
     }
 
     #typebar {
         height: 1px;
-        width: 2rem;
+        width: 3rem;
     }
 
     /* Botón del header */
@@ -763,16 +763,16 @@ footer .footer-icon img {
     /* Header */
 
     header .header-container-text h1 {
-        font-size: 38px;
+        font-size: 65px;
     }
 
     header .header-container-text h2 {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     #typebar {
         height: 1px;
-        width: 1.7rem;
+        width: 2.5rem;
     }
 
     /* Imágen del header */
@@ -815,16 +815,16 @@ footer .footer-icon img {
     }
 
     header .header-container-text h1 {
-        font-size: 32px;
+        font-size: 60px;
     }
 
     header .header-container-text h2 {
-        font-size: 18px;
+        font-size: 26px;
     }
 
     #typebar {
         height: 1px;
-        width: 1.5rem;
+        width: 2.8rem;
     }
 
     /* Botón del header */
@@ -909,16 +909,16 @@ footer .footer-icon img {
     /* Header */
 
     header .header-container-text h1 {
-        font-size: 28px;
+        font-size: 55px;
     }
 
     header .header-container-text h2 {
-        font-size: 16px;
+        font-size: 22px;
     }
 
     #typebar {
         height: 1px;
-        width: 1.3rem;
+        width: 2.3rem;
     }
 
     /* Botón del header */
@@ -972,11 +972,11 @@ footer .footer-icon img {
     /* Header */
     
     header .header-container-text h1 {
-        font-size: 26px;
+        font-size: 50px;
     }
     
     header .header-container-text h2 {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     /* Imágen del header */
@@ -1015,11 +1015,16 @@ footer .footer-icon img {
     }
     
     header .header-container-text h1 {
-        font-size: 30px;
+        font-size: 45px;
     }
     
     header .header-container-text h2 {
-        font-size: 20px;
+        font-size: 18px;
+    }
+
+    #typebar {
+        height: 1px;
+        width: 2.2rem;
     }
 
     /* Imágen del header */
