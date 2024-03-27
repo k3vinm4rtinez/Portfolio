@@ -1058,6 +1058,7 @@ footer .footer-icon img {
     main .skill-box {
         width: 100%;
         height: 500px;
+        visibility: visible;
     }
     
     main .skill-box .skill-box-content {
