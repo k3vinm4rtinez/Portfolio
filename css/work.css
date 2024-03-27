@@ -39,6 +39,10 @@ header hr {
     border-radius: 2px;
 }
 
+header h1 {
+    font-family: 'Unbounded';
+}
+
 /* MAIN */
 
 main {
@@ -83,6 +87,8 @@ main {
 .container-project h2 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    font-family: 'Unbounded';
+    font-weight: 400;
 }
 
 .container-project p {
