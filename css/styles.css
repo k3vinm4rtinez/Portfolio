@@ -47,6 +47,8 @@ header .header-container-text h1 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    font-family: 'Unbounded';
+    font-weight: 400;
 }
 
 header .header-container-text h1 span {
@@ -147,6 +149,11 @@ main .background {
     backdrop-filter: blur(0.3rem)!important;
 }
 
+main .background h1 {
+    font-family: 'Unbounded';
+    font-weight: 100;
+}
+
 /* Habilidades */
 
 main .carousel {
@@ -192,6 +199,8 @@ main .skill-box .skill-box-content img {
 
 main .skill-box .skill-box-content h2 {
     font-size: 40px;
+    font-family: 'Unbounded';
+    font-weight: 500;
 }
 
 main .skill-box .skill-box-content p {
@@ -240,6 +249,8 @@ main form {
 main form h2 {
     font-size: 26px;
     margin-left: 20px;
+    font-family: 'Unbounded';
+    font-weight: 100;
 }
 
 main form input {
