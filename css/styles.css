@@ -21,7 +21,7 @@ header {
 }
 
 header .background {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #00000080;
     border-radius: 50px;
     width: 95%;
     overflow: hidden;
@@ -222,7 +222,7 @@ main .skill-box .skill-box-content-stars {
 
 main .skill-box .skill-box-content-stars .star-0 {
     font-size: 30px;
-    color: #2D2E3A;
+    color: #00000080;
     transition: color 0.3s;
     cursor: pointer;
 }
