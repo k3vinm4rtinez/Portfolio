@@ -101,6 +101,28 @@ main {
     flex-direction: row-reverse;
 }
 
+.link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.link a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 4rem;
+    background-color: #02B3FF;
+    border-radius: 10rem;
+    border: none;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
 /* FOOTER */
 
 footer {
@@ -472,6 +494,21 @@ footer .footer-icon img {
 
     .container-project p {
         font-size: 12px;
+    }
+
+    .tags {
+        justify-content: center;
+    }
+
+    .link {
+        justify-content: center;
+    }
+    
+    .link a {
+        width: 4rem;
+        height: 2rem;
+        border: none;
+        font-size: 15px;
     }
 
 }
