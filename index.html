@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <title>Kevin Martínez</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,15 +14,28 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><button tabindex="-1" class="nav_home">Inicio</button></li>
+            <li><button tabindex="-1" class="nav_skills">Habilidades</button></li>
+            <li><button tabindex="-1" class="nav_aboutMe">Sobre mi</button></li>
+            <li><button tabindex="-1" class="nav_projects" onclick="location.href='work.html'">Proyectos</button></li>
+            <li><button tabindex="-1" class="nav_contact">Contacto</button></li>
+        </ul>
+    </nav>
     <header>
         <div class="background">
             <div class="header-container-text">
                 <h1>Soy <span id="letter-container"></span><hr id="typebar"></hr></h1>
-                <h2>Desarrollador y diseñador web Jr.</h2>
-                <h2>Utilizo los lenguajes HTML, CSS y Javascript.</h2>
+                <h2>Desarrollador y diseñador web.</h2>
             </div>
             <div class="header-container-button">
                 <button onclick="location.href='work.html'">Mira mi trabajo</button>
+                <div class="header_icons">
+                    <a target ="_blank" href="https://uy.linkedin.com/in/kevin-mart%C3%ADnez-4b0aa3246"><img src="./libs/img/icons/linkedin-icon.png" /></a>
+                    <a target ="_blank" href="https://api.whatsapp.com/send?phone=59898870586"><img src="./libs/img/icons/wpp-icon.png" /></a>
+                    <a target ="_blank" href="https://github.com/k3vinm4rtinez"><img src="./libs/img/icons/github-icon.png" /></a>
+                </div>
             </div>
             <div class="header-container-image">
                 <img src="./libs/img/kev portfolio.png" />
@@ -43,13 +57,6 @@
                         <img src="./libs/img/icons/html-icon.png" />
                         <img src="./libs/img/icons/css-icon.png" />
                         <h2>HTML y CSS</h2>
-                        <div class="skill-box-content-stars">
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-0"></i>
-                        </div>
                         <p>Aprendí HTML y CSS a través de distintos cursos en internet, considero que tengo un conocimiento competente en ambos lenguajes. </p>
                     </div>
                 </div>
@@ -57,13 +64,6 @@
                     <div class="skill-box-content">
                         <img src="./libs/img/icons/bootstrap-icon.png" />
                         <h2>Bootstrap</h2>
-                        <div class="skill-box-content-stars">
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-0"></i>
-                        </div>
                         <p>Bootstrap es el framework que más suelo utilizar para ahorrar tiempo al desarrollar una página web.</p>
                     </div>
                 </div>
@@ -71,13 +71,6 @@
                     <div class="skill-box-content">
                         <img src="./libs/img/icons/figma-icon.png" />
                         <h2>Figma</h2>
-                        <div class="skill-box-content-stars">
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-0"></i>
-                            <i class="bi bi-star-fill star-0"></i>
-                        </div>
                         <p>Comencé utilizando Adobe XD para realizar diseños web, y en la actualidad uso Figma, programa que aprendí por mi cuenta a raíz de la necesidad de previsualizar mis maquetas web previo al desarrollo.</p>
                     </div>
                 </div>
@@ -85,13 +78,6 @@
                     <div class="skill-box-content">
                         <img src="./libs/img/icons/git-icon.png" />
                         <h2>GIT</h2>
-                        <div class="skill-box-content-stars">
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-0"></i>
-                            <i class="bi bi-star-fill star-0"></i>
-                        </div>
                         <p>La herramienta GIT es con la que guardo todos mis proyectos a través de la plataforma GitHub, conozco todos los comandos que necesito.</p>
                     </div>
                 </div>
@@ -99,36 +85,36 @@
                     <div class="skill-box-content">
                         <img src="./libs/img/icons/js-icon.png" />
                         <h2>Javascript</h2>
-                        <div class="skill-box-content-stars">
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-0"></i>
-                            <i class="bi bi-star-fill star-0"></i>
-                        </div>
                         <p>Me encuentro en costante aprendizaje del lenguaje Javascript, considero que es sustancial a la hora del desarrollo Front-End y me resulta fascinante todo lo que se puede lograr.</p>
                     </div>
-                </div>
+                </div>  
                 <div class="skill-box" id="sb6">
+                    <div class="skill-box-content">
+                        <img src="./libs/img/icons/puppeteer-icon.png" />
+                        <h2>Puppeteer</h2>
+                        <p>La herramienta Puppeteer es la que utilizo para realizar web scraping en muchos de mis proyectos.</p>
+                    </div>
+                </div>
+                <div class="skill-box" id="sb7">
+                    <div class="skill-box-content">
+                        <img src="./libs/img/icons/wordpress-icon.png" />
+                        <h2>Wordpress</h2>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="skill-box" id="sb8">
                     <div class="skill-box-content">
                         <img src="./libs/img/icons/idiomas-icon.png" />
                         <h2>Idiomas</h2>
                         <h3>Inglés</h3>
-                        <div class="skill-box-content-stars">
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-0"></i>
-                            <i class="bi bi-star-fill star-0"></i>
-                        </div>
-                        <h3>Portugués</h3>
-                        <div class="skill-box-content-stars">
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-1"></i>
-                            <i class="bi bi-star-fill star-0"></i>
-                            <i class="bi bi-star-fill star-0"></i>
-                            <i class="bi bi-star-fill star-0"></i>
-                        </div>
+                    </div>
+                </div>
+                <div class="skill-box" id="sb9">
+                    <div class="skill-box-content">
+                        <img src="" />
+                        <h2>dsfsdfsd</h2>
+
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -143,13 +129,6 @@
                             <img src="./libs/img/icons/html-icon.png" />
                             <img src="./libs/img/icons/css-icon.png" />
                             <h2>HTML y CSS</h2>
-                            <div class="skill-box-content-stars">
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-0"></i>
-                            </div>
                             <p>Aprendí HTML y CSS a través de distintos cursos en internet, considero que tengo un conocimiento competente en ambos lenguajes. </p>
                         </div>
                     </div>
@@ -159,13 +138,6 @@
                         <div class="skill-box-content">
                             <img src="./libs/img/icons/bootstrap-icon.png" />
                             <h2>Bootstrap</h2>
-                            <div class="skill-box-content-stars">
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-0"></i>
-                            </div>
                             <p>Bootstrap es el framework que más suelo utilizar para ahorrar tiempo al desarrollar una página web.</p>
                         </div>
                     </div>
@@ -175,13 +147,6 @@
                         <div class="skill-box-content">
                             <img src="./libs/img/icons/figma-icon.png" />
                             <h2>Figma</h2>
-                            <div class="skill-box-content-stars">
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-0"></i>
-                                <i class="bi bi-star-fill star-0"></i>
-                            </div>
                             <p>Comencé utilizando Adobe XD para realizar diseños web, y en la actualidad uso Figma, programa que aprendí por mi cuenta a raíz de la necesidad de previsualizar mis maquetas web previo al desarrollo.</p>
                         </div>
                     </div>
@@ -191,13 +156,6 @@
                         <div class="skill-box-content">
                             <img src="./libs/img/icons/git-icon.png" />
                             <h2>GIT</h2>
-                            <div class="skill-box-content-stars">
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-0"></i>
-                                <i class="bi bi-star-fill star-0"></i>
-                            </div>
                             <p>La herramienta GIT es con la que guardo todos mis proyectos a través de la plataforma GitHub, conozco todos los comandos que necesito.</p>
                         </div>
                     </div>
@@ -207,14 +165,25 @@
                         <div class="skill-box-content">
                             <img src="./libs/img/icons/js-icon.png" />
                             <h2>Javascript</h2>
-                            <div class="skill-box-content-stars">
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-0"></i>
-                                <i class="bi bi-star-fill star-0"></i>
-                            </div>
                             <p>Me encuentro en costante aprendizaje del lenguaje Javascript, considero que es sustancial a la hora del desarrollo Front-End y me resulta fascinante todo lo que se puede lograr.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-block skill-box">
+                        <div class="skill-box-content">
+                            <img src="./libs/img/icons/puppeteer-icon.png" />
+                            <h2>Puppeteer</h2>
+                            <p>La herramienta Puppeteer es la que utilizo para realizar web scraping en muchos de mis proyectos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-block skill-box">
+                        <div class="skill-box-content">
+                            <img src="./libs/img/icons/wordpress-icon.png" />
+                            <h2>Wordpress</h2>
+                            <p></p>
                         </div>
                     </div>
                 </div>
@@ -224,21 +193,7 @@
                             <img src="./libs/img/icons/idiomas-icon.png" />
                             <h2>Idiomas</h2>
                             <h3>Inglés</h3>
-                            <div class="skill-box-content-stars">
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-0"></i>
-                                <i class="bi bi-star-fill star-0"></i>
-                                <i class="bi bi-star-fill star-0"></i>
-                            </div>
                             <h3>Portugués</h3>
-                            <div class="skill-box-content-stars">
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-1"></i>
-                                <i class="bi bi-star-fill star-0"></i>
-                                <i class="bi bi-star-fill star-0"></i>
-                                <i class="bi bi-star-fill star-0"></i>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -253,6 +208,24 @@
                 </a>
             </div>
         </div>
+
+        <div class="background">
+            <div class="main-container-aboutme-title">
+                <h1>Sobre mi</h1>
+                <hr></hr>
+            </div>
+            <div class="container_aboutme">
+                <div class="info_aboutme">
+                    <p>Soy un estudiante de la Licenciatura en Comunicación en la FIC (UdelaR). Me inclino hacia un desarrollo de un perfil organizacional y estratégico.</p>
+                    <p>Además soy desarrollador Frontend. Estoy particularmente interesado en el área de desarrollo de interfaces de usuario creativas donde el foco está en evaluar todas las necesidades del usuario y diseñar la mejor interface posible.</p>
+                </div>
+                <div class="me">
+                    <img src="./libs/img/photo.png" alt="">
+                    <hr class="me_line"></hr>
+                </div>
+            </div>
+        </div>
+
         <div class="background" id="formHeight">
             <div class="main-container-contact-title">
                 <h1>Contacto</h1>
@@ -264,7 +237,7 @@
                     <h2>Email</h2>
                     <input name="email" type="email" placeholder="fulanito@gmail.com" class="contact-form-email" />
                     <h2>Mensaje</h2>
-                    <textarea name="message" rows="10" placeholder="Escribe aquí tu mensaje..." class="contact-form-message"></textarea>
+                    <textarea name="message" rows="5" placeholder="Escribe aquí tu mensaje..." class="contact-form-message"></textarea>
                     <div class="main-container-button">
                         <button type="submit">Enviar</button>
                     </div>
@@ -286,26 +259,14 @@
             </div>
         </div>
     </footer>
-    <div class="bubbles">
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
+    <div class="up">
+        <img src="./libs/img/icons/up.png" alt="">
     </div>
-    <div class="waves">
-        <div class="wave wave1"></div>
-        <div class="wave wave2"></div>
-        <div class="wave wave3"></div>
-        <div class="bg-white"></div>
-    </div>
+
 
     <script src="./js/main.js"></script>
     <script src="./js/animations.js"></script>
+    <script src="./js/nav.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

@@ -40,6 +40,9 @@ const skillBox3 = document.getElementById("sb3");
 const skillBox4 = document.getElementById("sb4");
 const skillBox5 = document.getElementById("sb5");
 const skillBox6 = document.getElementById("sb6");
+const skillBox7 = document.getElementById("sb7");
+const skillBox8 = document.getElementById("sb8");
+const skillBox9 = document.getElementById("sb9");
 
 
 window.addEventListener('scroll', function(){
@@ -110,5 +113,64 @@ window.addEventListener('scroll', function(){
     
     });
 
+    window.addEventListener('scroll', function(){
+
+        setTimeout(() => { let positionSB7 = skillBox7.getBoundingClientRect().top;
+    
+        if(positionSB7 < (window.scrollY)){
+            skillBox7.style.animation = "aparecer 1s ease-out";
+            skillBox7.style.visibility = "visible";
+        }}, 4000);
+    
+    });
+
+    window.addEventListener('scroll', function(){
+
+        setTimeout(() => { let positionSB8 = skillBox8.getBoundingClientRect().top;
+    
+        if(positionSB8 < (window.scrollY)){
+            skillBox8.style.animation = "aparecer 1s ease-out";
+            skillBox8.style.visibility = "visible";
+        }}, 4500);
+    
+    });
+
+    window.addEventListener('scroll', function(){
+
+        setTimeout(() => { let positionSB9 = skillBox9.getBoundingClientRect().top;
+    
+        if(positionSB9 < (window.scrollY)){
+            skillBox9.style.animation = "aparecer 1s ease-out";
+            skillBox9.style.visibility = "visible";
+        }}, 5000);
+    
+    });
+
+
+// FLECHA PARA ARRIBA
+
+const flecha = document.querySelector('.up');
+const home = document.querySelector('header');
+
+window.addEventListener('scroll', function() {
+
+    let alturaTotalBody = document.body.scrollHeight;
+    let scrollYActual = window.scrollY;
+    let mitadAlturaBody = alturaTotalBody / 2;
+
+    if (scrollYActual >= mitadAlturaBody) {
+        flecha.style.display = "flex";
+    } else {
+        flecha.style.display = "none";
+    }
+});
+
+flecha.addEventListener('click', () => {
+    const topOffset = home.getBoundingClientRect().top + window.scrollY - home.marginTop;
+    window.scrollTo({
+        top: topOffset,
+        behavior: "smooth"
+    });
+});
 
 
