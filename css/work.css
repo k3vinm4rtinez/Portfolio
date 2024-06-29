@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(48, 50, 74);
+    background-color: #001d29;
     color: #ffff;
     margin-top: 50px;
     font-family: "inter";
@@ -60,7 +60,8 @@ main {
     justify-content: center;
     width: 100%;
     margin: 4rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    border: 2px solid #02B3FF;
     border-radius: 50px;
     backdrop-filter: blur(0.3rem)!important;
     padding: 6rem 2rem 6rem 2rem;
@@ -115,18 +116,18 @@ main {
     justify-content: center;
     width: 8rem;
     height: 4rem;
-    background-color: #02B3FF;
+    background-color: transparent;
+    border: 2px solid #02B3FF!important;
     border-radius: 10rem;
     border: none;
     font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .link a:hover {
-    background-color: #02b3ff6f;
+    background-color: #02B3FF;
     border: solid 2px #02B3FF;
-    color: #02B3FF;
 }
 
 @keyframes float {
@@ -161,6 +162,7 @@ footer {
     width: 100%;
     height: 250px;
     margin-right: 100px;
+    border-top: 2px solid #02B3FF;
 }
 
 footer hr {
@@ -186,7 +188,7 @@ footer .footer-icon {
     height: 40px;
     width: 40px;
     border-radius: 40px;
-    background-color: #30324a;
+    background-color: #001d29;
     z-index: 1;
 }
 
@@ -427,13 +429,13 @@ footer .footer-icon img {
     }
 
     main {
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     .container-project {
         padding: 1rem;
-        margin: 1rem;
+        margin: 2rem;
     }
 
     .container-project h2 {
